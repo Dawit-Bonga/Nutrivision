@@ -1,0 +1,110 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pyre/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------
+# Node / React
+# ------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# ------------------------------
+# Build / C++ / CMake
+# ------------------------------
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Makefile
+*.a
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.dylib
+*.so
+
+# ------------------------------
+# ML Artifacts / Data
+# ------------------------------
+data/raw/
+data/processed/
+data/interim/
+artifacts/
+checkpoints/
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.ckpt
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# ------------------------------
+# Runtime / Logs / Temp
+# ------------------------------
+*.log
+logs/
+tmp/
+.temp/
+.cache/
+
+# ------------------------------
+# Env & Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ------------------------------
+# Deploy
+# ------------------------------
+.vercel/
