@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+numpy
+opencv-python
+pillow
+pydantic
+requests
+pandas
+torch
+torchvision
+albumentations
+onnx
+onnxruntime
+wandb
